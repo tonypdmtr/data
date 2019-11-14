@@ -5,5 +5,5 @@ Re-create database by running the command:
 
 sql < database.sql
 
-where SQL is your active SQLite3 path
+where SQL is your actual SQLite3 path
 and DATABASE.SQL is whatever file your downloaded.
