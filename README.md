@@ -7,5 +7,5 @@ sql database.db < database.sql
 
 where
  * SQL is your actual SQLite3 path,
- * DATABASE.DB is the whatever file you want to name your database, and
- * DATABASE.SQL is the file you downloaded.
+ * DATABASE.DB is whatever file you want to name your database, and
+ * DATABASE.SQL is the file you downloaded from here.
