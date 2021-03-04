@@ -6803,4 +6803,8 @@ INSERT INTO p VALUES(65535,65535,'udp','Tibbo Command Port','Tibbo',NULL);
 INSERT INTO p VALUES(4467,4467,'udp','Freescale BDM Programmer','Cyclone PRO outbound','o');
 INSERT INTO p VALUES(8738,8738,'udp','Freescale BDM Programmer','Cyclone PRO inbound','i');
 INSERT INTO p VALUES(1966,1966,'udp','B.A.T.M.A.N.','Mesh-like network protocol','i/o');
+
+CREATE VIEW vp as
+  select p1,p2,prot,substr(app,1,20) app,substr(name,1,70) name,in_out
+    from p;
 COMMIT;
