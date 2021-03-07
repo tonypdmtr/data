@@ -6255,6 +6255,15 @@ INSERT INTO s08 VALUES('S9S08SL8F1MTLR','9S08 UC W/ 8K 0.25UM SGF','N','Active',
 INSERT INTO s08 VALUES('S9S08SL8F1VTJR','8-bit MCU, S08 core, 8KB Flash, 40MHz, -40/+105degC, Automotive Qualified, SOP 20','N','Active','TSSOP20','20','10K @ US$1.05',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO s08 VALUES('MC9S08QE128CFTR','S08QE 8-bit MCU, S08 core, 128KB Flash, 50MHz, QFN 48','N','Active','HVQFN48','48','-',NULL,NULL,'S08',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO s08 VALUES('MC9S08QE128CLHR','S08QE 8-bit MCU, S08 core, 128KB Flash, 50MHz, QFP 64','N','Active','LQFP64','64','-',NULL,NULL,'S08',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO s08 VALUES('MC9S08PB16MTG','5V Full-featured MCU with Rich Analog','N','Active','TSSOP16','16','-','16','1','S08','20','20','',NULL,'','1','',2.7,5.5,'14',NULL,NULL,NULL,'-40 to 125','');
+INSERT INTO s08 VALUES('MC9S08PB16MTJ','5V Full-featured MCU with Rich Analog','N','Active','TSSOP20','20','-','16','1','S08','20','20','',NULL,'','1','',2.7,5.5,'18',NULL,NULL,NULL,'-40 to 125','');
+INSERT INTO s08 VALUES('MC9S08PB16VTG','5V Full-featured MCU with Rich Analog','N','Active','TSSOP16','16','-','16','1','S08','20','20','',NULL,'','1','',2.7,5.5,'14',NULL,NULL,NULL,'-40 to 105','');
+INSERT INTO s08 VALUES('MC9S08PB16VTJ','5V Full-featured MCU with Rich Analog','N','Active','TSSOP20','20','-','16','1','S08','20','20','',NULL,'','1','',2.7,5.5,'18',NULL,NULL,NULL,'-40 to 105','');
+INSERT INTO s08 VALUES('MC9S08PB8MTG','5V Full-featured MCU with Rich Analog','N','Active','TSSOP16','16','-','8','1','S08','20','20','',NULL,'','1','',2.7,5.5,'14',NULL,NULL,NULL,'-40 to 125','');
+INSERT INTO s08 VALUES('MC9S08PB8MTJ','5V Full-featured MCU with Rich Analog','N','Active','TSSOP20','20','-','8','1','S08','20','20','',NULL,'','1','',2.7,5.5,'18',NULL,NULL,NULL,'-40 to 125','');
+INSERT INTO s08 VALUES('MC9S08PB8VTG','5V Full-featured MCU with Rich Analog','N','Active','TSSOP16','16','-','8','1','S08','20','20','',NULL,'','1','',2.7,5.5,'14',NULL,NULL,NULL,'-40 to 105','');
+INSERT INTO s08 VALUES('MC9S08PB8VTJ','5V Full-featured MCU with Rich Analog','N','Active','TSSOP20','20','-','8','1','S08','20','20','',NULL,'','1','',2.7,5.5,'18',NULL,NULL,NULL,'-40 to 105','');
+INSERT INTO s08 VALUES('MC9S08PL16SCTG','','N','Active','TSSOP16','16','-','16','1','S08','20','20','',NULL,'','','',2.7,5.5,'14',NULL,NULL,NULL,'-40 to 85','');
 CREATE TABLE power(
   "pn" TEXT,
   "Description" TEXT,
